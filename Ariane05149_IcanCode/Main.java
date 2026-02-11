@@ -1,8 +1,8 @@
+package Ariane05149_IcanCode;
 import Ariane05149_IcanCode.EmailNotification;
 import Ariane05149_IcanCode.NotificationService;
 import Ariane05149_IcanCode.PushNotification;
 import Ariane05149_IcanCode.SMSNotification;
-
 public class Main {
     public static void main(String[] args) {
         NotificationService emailNot = new EmailNotification();
